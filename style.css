@@ -133,7 +133,7 @@ a:hover{
     margin-top : 3em;
     margin-bottom:3em;
     background-color: #DEEDF0;
-    padding: 2em;
+    padding: 15vmin;
 }
 .cv img{
     width: 50vmin;
@@ -219,6 +219,9 @@ a:hover{
     bottom: 50%;
 
 }
+.container-img{
+    text-align: center;
+}
 
 .container-img:hover .middle {
     opacity: 1;
@@ -238,4 +241,6 @@ a:hover{
 
   /** Contacts **/
 
-  
+  #contacts{
+      bottom: 2.3em;
+  }

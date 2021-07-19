@@ -22,10 +22,12 @@ h3{
 }
 
 nav{
+    display: flex;
     background-color: white;
     position: sticky;
     z-index:1;
     top: 0;
+    align-items: center;
 }
 
 .main-nav{
@@ -34,13 +36,27 @@ nav{
     justify-content: space-between;
     width:50%;
     margin: 0 auto;
-    padding: 0;
+    padding: 2vmin;;
 }
 a{
     color:black;
+    text-decoration: none;
 }
 a:hover{
-    text-decoration: none;
+    color: #DEEDF0;
+}
+
+.trait{
+    border-top: 2px solid #000;
+    width : 40vmin;
+}
+
+#trait-gauche{
+    margin-left: 10vmin;
+}
+
+#trait-droit{
+    margin-right: 10vmin;
 }
 /** HOME **/
 .home{
@@ -77,9 +93,7 @@ a:hover{
     font-size: 2em;
     margin: 0;
     margin-left: 1em;
-    z-index: 1;
     position: relative;
-
 }
 #about{
     top: 0.5em;
@@ -131,7 +145,7 @@ a:hover{
     display: flex;
     justify-content: center;
     margin-top : 3em;
-    margin-bottom:3em;
+    margin-bottom:0em;
     background-color: #DEEDF0;
     padding: 15vmin;
 }
@@ -242,5 +256,31 @@ a:hover{
   /** Contacts **/
 
   #contacts{
-      bottom: 2.3em;
+      bottom: 0.8em;
+  }
+
+  .contacts{
+      text-align: center;
+      padding: 10vmin;
+      padding-top: 0;
+  }
+
+  /** footer **/
+  footer {
+      padding: 3vmin;
+      background-color: #0D1321;
+  }
+
+  footer ul{
+    display: flex;
+    list-style-type: none;
+    width:50%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding:0;
+
+  }
+
+  footer ul a{
+    color: white;
   }

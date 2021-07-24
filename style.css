@@ -260,15 +260,15 @@ a:hover{
     grid-template-rows: 0.8fr 0.5fr;
     grid-auto-flow: row;
     gap: 2vmin;
-    background-color: rgba(171,212,214,50%);
+    background-color: rgba(168, 216, 218, 90%);
     padding: 5vmin;
 }
 
 
 .block{
-    border: 2px solid rgba(171,212,214,100%);
+    border: 2px solid white;
     border-radius: 8px;
-    background-color: rgba(171,212,214,30%);
+    background-color: white;
     margin: 1vmin;
     padding: 5vmin;
     padding-top: 1vmin;

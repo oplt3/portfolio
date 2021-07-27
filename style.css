@@ -677,7 +677,14 @@ footer ul a{
         right:0;
         border:none;
         background-image: url("figures/photo1.jfif");
-        background-position: 50% 10%;
+        background-position: 50% 20%;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:840px){
+    .descript-proj{
+        background-image: linear-gradient(#AED6D6, #FE847F);
     }
 }
 

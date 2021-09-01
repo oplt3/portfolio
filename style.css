@@ -440,7 +440,9 @@ progress[value]::-webkit-progress-value {
     padding:2em;
 }
 
-
+video{
+    padding-bottom: 2em;
+}
 
 /** CV **/ 
 
@@ -707,5 +709,13 @@ footer ul a{
 @media screen and (max-width:744px){
     .tools{
         display: block;
+    }
+}
+
+
+@media screen and (max-width:744px){
+    video{
+        width:50%;
+        height:auto;
     }
 }

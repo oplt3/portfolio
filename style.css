@@ -408,16 +408,11 @@ progress[value]::-webkit-progress-value {
     bottom: 0.9em;
 }
 
-.projects img{
-    width: 30%;
-    height: auto;
-    border-radius: 8px;
-}
-
 .projects{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 
 }
 
@@ -665,13 +660,6 @@ footer ul a{
 }
 
 @media only screen and (max-width: 1314px){
-    .projects{
-        display:block;
-        text-align: center;
-    }
-    .projects img{
-        display: none;
-    }
     .descript-proj{
         width:80%;
         margin:0 auto;
